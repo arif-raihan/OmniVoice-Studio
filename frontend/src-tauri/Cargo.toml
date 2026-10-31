@@ -48,7 +48,7 @@ walkdir = "2"
 dirs-next = "2"
 
 [target.'cfg(windows)'.dependencies]
-zip = { version = "2", default-features = false, features = ["deflate"] }
+zip = { version = "4", default-features = false, features = ["deflate"] }
 
 [target.'cfg(unix)'.dependencies]
 libc = "0.2"
